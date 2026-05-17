@@ -9,7 +9,7 @@ on:
     - 'Dockerfile'
 
 permissions:
-  contents: true
+  contents: write
 
 concurrency:
   group: ${{ github.ref }}
