@@ -1,4 +1,4 @@
-FROM slskd/slskd:0.24.5
+FROM slskd/slskd:0.24.5@sha256:17ef977563be206f3b5932080b1e23883b2cb39dc9010640f6f39b4eaec887e3
 
 RUN apt update
 
