@@ -20,7 +20,7 @@ jobs:
         fetch-tags: true
 
     - name: Publish to Docker Hub
-      uses: home-kops/actions/.github/actions/publish-docker-image@main
+      uses: msdeleyto/gh-actions/.github/actions/publish-docker-image@main
       with:
         image_name: slskd
         dockerhub_username: ${{ vars.DOCKERHUB_USERNAME }}
